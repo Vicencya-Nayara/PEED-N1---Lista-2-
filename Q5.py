@@ -10,7 +10,7 @@ for i in range(num_vertice):
 
 num_aresta = int(input('Digite o números de arestas: '))
 for i in range(num_aresta):
-    a, b = input('Digite os vertices que formam as arestas: ')
+    a, b = input('Digite os vertices que formam as arestas: ').split()
     grafo[a].append(b)
     grafo[b].append(a)
 
